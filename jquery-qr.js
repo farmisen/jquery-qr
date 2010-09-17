@@ -41,7 +41,7 @@
           display: "none"
         });
 
-      }); //$this.mouseleave
+      });
     }); //each
 
     function createQR(href, size) {
