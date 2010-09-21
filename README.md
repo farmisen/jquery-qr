@@ -20,7 +20,7 @@ jquery-qr is a jQuery plugin that create QR code image popups from &lt;a&gt; tag
   
       <body>
         <a href="http://www.google.com">Google</a><br/>
-        <a href="mailto:farmisen@gmail.com">farmisen@gmail.com</a><br/>
+        <a href="mailto:duhduh@armisen.com">duhduh@armisen.com</a><br/>
       </body>
   
     </html>
