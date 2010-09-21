@@ -1,0 +1,24 @@
+body {
+	font: small "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+pre {
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	overflow: hidden;
+	background-color: #fefcce;
+	font-size: medium;
+}
+
+h2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	font-size: medium;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	margin-bottom: 20px;
+}

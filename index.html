@@ -1,5 +1,7 @@
 <html>
 <head>
+  <link href="jquery-qr.css" media="screen" rel="stylesheet" type="text/css" />
+  
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.js"></script>
   <script type="text/javascript" src="jquery-qr.js"></script>
 
@@ -12,7 +14,34 @@
 </head>
 
 <body>
-  <h1>Examples</h1>
+  <h1>jquery-qr: a jQuery plugin</h1>
+
+  <p>jquery-qr is a jQuery plugin that create QR code image popups from &lt;a&gt; tags href values.</p>
+
+  <h2>Usage</h2>
+
+  <pre><code>&lt;html&gt;
+    &lt;head&gt;
+      &lt;script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.js"&gt;&lt;/script&gt;
+      &lt;script type="text/javascript" src="jquery-qr.js"&gt;&lt;/script&gt;
+
+      &lt;script type="text/javascript"&gt;
+        $(document).ready(function() {
+          $("a").qr();
+        });
+      &lt;/script&gt;
+
+    &lt;/head&gt;
+
+    &lt;body&gt;
+      &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;&lt;br/&gt;
+      &lt;a href="mailto:duhduh@armisen.com"&gt;duhduh@armisen.com&lt;/a&gt;&lt;br/&gt;
+    &lt;/body&gt;
+
+  &lt;/html&gt;
+  </code></pre>
+
+  <h2>Examples</h2>
   <ul>
     <li>Web urls:
       <ul>
@@ -47,9 +76,23 @@
       </ul>
     </li>
   </ul>
-  
-  <h1>Source</h1>
-  <div id="snipplr_embed_40833" class="snipplr_embed"><a href="http://snipplr.com/view/40833/jqueryqr-example/">Code snippet - jquery-qr example</a> on Snipplr</div><script type="text/javascript" src="http://snipplr.com/js/embed.js"></script><script type="text/javascript" src="http://snipplr.com/json/40833"></script>
+
+  <h2>Inspired by:</h2>
+
+  <ul>
+  <li><a href="http://www.androidpolice.com/2010/09/15/new-androidpolice-com-feature-instant-qr-magic-hover-on-any-link-in-any-post-to-get-the-corresponding-qr-code-poll/">New AndroidPolice.com Feature: Instant QR Magic - Hover On Any Link In Any Post To Get The Corresponding QR Code</a> by  Artem Russakovskii</li>
+  </ul>
+
+
+  <h2>Author</h2>
+
+  <p>[Fabrice Armisen]</p>
+
+  <h2>Other</h2>
+
+  <p><a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a></p>
+
+  <p>Copyright (c) 2010, Fabrice Armisen (farmisen [<em>at</em>] gmail [<em>dot</em>] com)</p>
   
 </body>
 
